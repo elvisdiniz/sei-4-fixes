@@ -6,6 +6,8 @@
 // @author       Elvis Diniz
 // @match        https://sei.ebserh.gov.br/*
 // @grant        none
+// @downloadURL  https://github.com/elvisdiniz/sei-4-fixes/raw/main/sei4fixes.user.js
+// @updateURL    https://github.com/elvisdiniz/sei-4-fixes/raw/main/sei4fixes.user.js
 // ==/UserScript==
 
 (function() {
