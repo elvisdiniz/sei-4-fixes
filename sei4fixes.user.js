@@ -12,17 +12,18 @@
 
 (function() {
     'use strict';
-
-    let fakePassInput = document.getElementById("pwdSenha");
-    if (fakePassInput) {
-        fakePassInput.remove();
-        let passInputs = document.getElementsByName("pwdSenha");
-        if (passInputs.length) {
-            let realPassInput = passInputs[0];
-            realPassInput.classList.add("form-control");
-            realPassInput.style.display = "block";
-            realPassInput.placeholder = "Senha";
-            realPassInput.id = "pwdSenha";
+    setTimeout(()=>{
+        let fakePassInput = document.getElementById("pwdSenha");
+        if (fakePassInput) {
+            fakePassInput.remove();
+            let passInputs = document.getElementsByName("pwdSenha");
+            if (passInputs.length) {
+                let realPassInput = passInputs[0];
+                realPassInput.classList.add("form-control");
+                realPassInput.style.display = "block";
+                realPassInput.placeholder = "Senha";
+                realPassInput.id = "pwdSenha";
+            }
         }
-    }
+    }, 1000);
 })();
