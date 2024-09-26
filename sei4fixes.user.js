@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sei 4.0 fixes
 // @namespace    https://sei.ebserh.gov.br/
-// @version      2024-09-19
+// @version      2024-09-26
 // @description  correções para o SEI 4.0
 // @author       Elvis Diniz
 // @match        https://sei.ebserh.gov.br/*
